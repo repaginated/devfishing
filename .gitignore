@@ -1,0 +1,11 @@
+# Build outputs & runtime binaries
+workspace/quake3e*
+workspace/webfish/*.so
+workspace/webfish/vm/*.so
+workspace/webfish/vm/*.qvm
+*.o
+*.d
+*.zip
+
+# Optional: ignore local q3config.cfg if you don't want machine-specific cvars tracked
+workspace/webfish/q3config.cfg
