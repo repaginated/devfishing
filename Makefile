@@ -8,7 +8,7 @@ Q3_DIR      := Quake3e
 Q3_OUT_DIR  := $(Q3_DIR)/build/release-linux-$(ARCH)
 SRC_VM_DIR  := src_vm
 WS_DIR      := workspace
-GAME_DIR    := $(WS_DIR)/webfish
+GAME_DIR    := $(WS_DIR)/devfishing
 VM_OUT_DIR  := $(GAME_DIR)
 
 CC_C99     := $(CC)
@@ -22,8 +22,8 @@ UI_SO      := $(VM_OUT_DIR)/ui$(ARCH).so
 DEV_ARGS := \
 	+set fs_basepath . \
 	+set fs_homepath . \
-	+set fs_basegame webfish \
-	+set fs_game webfish \
+	+set fs_basegame devfishing \
+	+set fs_game devfishing \
 	+set sv_pure 0 \
 	+set vm_game 0 \
 	+set vm_cgame 0 \
